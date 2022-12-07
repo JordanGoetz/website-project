@@ -102,17 +102,102 @@ a.button1 {
     font-size: 36px;
     color: #1f2937;
     font-weight: bolder;
+    margin: 32px;
 }
 
 .boxes {
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 150px;
+    flex-wrap: wrap;
+
 }
 
 .box {
     display: flex;
     border-color: #3882f6;
-    border-width: 1em;
-    min-width: 75px;
-    min-height: 75px;
+    border-width: 3px;
+    min-width: 125px;
+    min-height: 125px;
     border-style: solid;
+    flex-wrap: wrap;
+    border-radius: 15px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-bottom: 64px;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.middle {
+    display: flex;
+    background-color: #e5e7eb;
+    flex-direction: column;
+}
+
+#quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    padding: 100px 200px 0px 200px;
+}
+
+#quotethor {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    font-size: 20px;
+    padding: 0px 230px 100px 0px;
+}
+
+.bottom {
+    display: flex;
+    background-color: #3882f6;
+    padding: 75px 150px;
+    margin: 60px auto;
+    gap: 250px;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.bottom-left {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.action {
+    font-size: 18px;
+}
+
+.click {
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+a.button2 {
+    display: flex;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    text-decoration: none;
+    border-radius: 4px;
+    width: fit-content;
+    padding: 4px 32px;
+    font-size: 18px;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 2px;
+}
+
+.footer {
+    display: flex;
+    background-color: #1f2937;
+    justify-content: center;
+    color: white;
+    padding: 30px;
 }
